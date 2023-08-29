@@ -1,0 +1,30 @@
+.image-slider-say {
+
+  margin-bottom: -650px;
+  flex-shrink: 0;
+}
+  element.style {
+
+    opacity: 1;
+    transform: translate3d(-1658px, 0px, 0)
+  }
+
+  .image-item-say {
+    background-color: #eee;
+    border-radius: 15px;
+  }
+
+  .image-slider-say {
+    padding-bottom: 50px;
+    margin-left: 113px;
+    margin-right: 136px;
+}
+.slick-slide img {
+  display: block;
+  margin: 18px 0px 0px 20px;
+}
+.image-item-say {
+  padding: 16px;
+  margin-left: -10px;
+
+}

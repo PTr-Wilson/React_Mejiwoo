@@ -1,0 +1,258 @@
+.contact-form-area {
+   
+  height: 797px;
+}
+.container-contact{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f7f6f0;
+padding: 30px 0;
+height: 790px;
+}
+.left-content {
+  flex: 1;
+  padding: 20px;
+  width: 720px;
+  height: 547px;
+  display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+
+.left-content h1 {
+  margin: 0;
+  width: 547px;
+  color: #000;
+  text-align: center;
+  /* h1 */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.left-content ul {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+
+list-style: circle;
+}
+.left-content ul li {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.divider {
+  width: 2px;
+  height: 645px;
+  background-color: #000;
+  margin: 0 20px;
+}
+/*  qua ben phai */
+
+
+.right-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+
+}
+.right-content-form{
+  position: relative;
+  margin: 0 auto; /* Cân giữa theo chiều ngang */
+  
+}
+.right-content-form ul {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  margin-left: 90px;
+  margin: 0px -83px 0px 0px;
+  margin: 0; 
+
+
+
+}
+.right-content-form ul li{
+  /* display: flex; */
+  align-items: center; 
+  width: 463px;
+  height: 31px;
+
+}
+
+.right-content-form ul li form input{
+  display: flex;
+  /* padding: 6px 118px;
+  margin: 0px 88px; */
+  width: 463px;
+  height: 31px;
+  justify-content: center;
+align-items: center;
+border-color: #fff;
+gap: 10px;color: #000000;
+text-align: center;
+
+/* h3 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 7px;
+
+}
+
+.input-field {
+  border: none;
+  outline: none; /* xóa đương vien măc dinh */
+  border-bottom: 1px solid #ccc; /* them vien duoi co mau  */
+  transition: border-color 0.3s; 
+  padding: 5px;
+}
+/* 
+.input-field:focus {
+  border-bottom-color: #007bff; /* màu vien duoi */
+
+
+.right-content-form .checkbox{
+ 
+  width: 26px;
+height: 26px;
+border-radius: 4px;
+background: var(--secondary, #FFF);
+}
+.right-content-form ul li label{
+  color: #000;
+
+
+/* h3 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0px 0px 0px 12px;
+}
+
+/*  nút  */
+.btn-signup{
+/* position: absolute; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+padding: 12px 30px;
+margin: 31.5px 0px 15px 0px;
+border-radius: 20px;
+background: #FFF;
+border-color: #fff;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/*  phan thẻ or */
+
+.line-with-text {
+display: flex;
+align-items: center;
+width: 422px;
+
+}
+
+.left-line,
+.right-line {
+flex-grow: 1;
+height: 1px;
+border: none;
+border-top: 1px solid #000;
+margin: 0 10px;
+}
+
+.text {
+color: #000;
+text-align: center;
+
+/* h3 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* 2 bút button phía dưới  */
+.button-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+
+.button {
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.GG-button {
+display: inline-flex;
+padding: 12px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: #FFF;
+color: #000;
+
+/* button */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.GG-button:hover{
+background-color: rgba(217, 217, 217, 0.35);
+}
+.FB-button:hover{
+background-color: rgba(217, 217, 217, 0.35);
+}
+
+.FB-button {
+display: inline-flex;
+padding: 12px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: #FFF;
+color: #000;
+
+/* button */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+

@@ -1,0 +1,147 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    padding: 20px;
+}
+
+.image-slider {
+    padding-bottom: 50px;
+    margin-left: 130px;
+    margin-right: 136px;
+}
+
+.image {
+    width: 368px;
+    height: 463px;
+    margin-bottom:
+        20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-title {
+    /* font-size: 20px; */
+    color: #000;
+    text-align: center;
+    /* h3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-item h4 {
+    color: #000;
+
+    /* h4 */
+    text-align: center;
+    margin-top: 6px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+/* 
+.slick-arrow {
+    position: absolute;
+    top: 41%;
+    transform: translateY(-50%);
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    line-height: 1;
+    z-index: 5;
+    transition: all 0.2s linear;
+}
+
+.slick-arrow:hover {
+    cursor: pointer;
+    color: white;
+} */
+/* 
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-dots {
+    visibility: hidden;
+}
+
+ul.slick-dots {
+    display: none;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+.slick-dots .slick-active button {
+    background-color: #2cccff;
+} */

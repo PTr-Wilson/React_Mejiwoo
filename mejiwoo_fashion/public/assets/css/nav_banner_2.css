@@ -1,0 +1,76 @@
+.banner__container-getoff {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Centered text */
+.nav-text-h1 {
+    width: 345px;
+height: 59px;
+flex-shrink: 0;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    color: #000;
+    text-align: center;
+
+    /* h1 */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform: translate(-50%, -50%);
+}
+
+.nav-text-h3 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #000;
+    text-align: center;
+
+    /* h3 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* layout */
+    width: 345px;
+height: 54px;
+flex-shrink: 0;
+}
+.btn-shopnow{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* layout */
+display: inline-flex;
+padding: 12px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+background: #FFF;
+/* chẽ tex */
+color: #000;
+
+/* button */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn-shopnow:hover{
+    border-radius: 20px;
+background: rgba(217, 217, 217, 0.35);
+cursor: pointer;
+}

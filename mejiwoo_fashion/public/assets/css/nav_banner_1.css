@@ -1,0 +1,80 @@
+.banner__container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Centered text */
+.banner__text_h1 {
+  width: 345px;
+height: 59px;
+flex-shrink: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color: #000;
+  text-align: center;
+
+  /* h1 */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transform: translate(-50%, -50%);
+}
+.banner__text_h2 {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #000;
+
+/* h2 */
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+  /* layout */
+.banner__underlined{
+  position: absolute;
+  top: 49%;
+  left: 41%;
+  width: 256.5px;
+height: 0px;
+stroke-width: 1px;
+stroke: #000;
+
+}
+.banner__text_h3 {
+ 
+  width: 315px;
+  height: 48px;
+/*  */
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%, -50%);
+/* layout */
+display: inline-flex;
+padding: 12px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 20px;
+/* chẽ tex */
+color: #000;
+
+text-align: center;
+/* h3 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
